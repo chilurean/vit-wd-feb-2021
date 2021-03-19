@@ -1,40 +1,46 @@
 body {
-    background-color: hsla(50, 33%, 25%, .75);
-    color:darkred;
+    background-color: rgb(20, 6, 6);
+    color: whitesmoke;
 }
 
 #heroheader {
     display: flex;
+    border-style: ridge;
+    border-color: rgb(168, 168, 46);
+    border-width: 10px;
 }
 
 img {
-    height: 250px;
-    width: 380px;
+    height: 300px;
+    width: 371px;
 }
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
+    border-style: ridge;
+    border-color: rgb(168, 168, 46);
+    border-width: 10px;
 }
 
-h2{
-    text-align: center;
-    font-size: 30px;
+h2 {
+    display: block;
+    margin-left: 500px;
 }
-label {   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+label {  
+    display: block;
+    margin-left: 600px;
     font-size: 20px;
 }
 
-.container {  
-    text-align: center;     
+.container {   
+    text-align: center; 
 }  
 
 #btn {  
     font-size: 25px;  
-    }  
+}  
 
 p  {
     text-align: center;

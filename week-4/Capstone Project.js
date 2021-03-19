@@ -9,15 +9,15 @@ document.getElementById("questions").onsubmit=function() {
 document.getElementById("score").innerHTML = result;
 document.getElementById("score").style.visibility = "hidden";
 
-    if (result <= 2) {result2 = "Jimi Hendrix<br /><img src='jimihendrix.jpg' />"};
-    if (result == 3) {result2 = "Eddie Van Halen<br /><img src='EHV.jpg' />"};
-    if (result == 4) {result2 = "Eddie Van Halen<br /><img src='EVH.jpg' />"};
-    if (result == 5) {result2 = "Eddie Van Halen<br /><img src='EVH.jpg' />"};
-    if (result == 6) {result2 = "Eddie Van Halen<br /><img src='EVH.jpg' />"};
-    if (result == 7) {result2 = "Tom Morello<br /><img src='tommorello.jpg' />"};
-    if (result == 8) {result2 = "Tom Morello<br /><img src='tommorello.jpg' />"};
-    if (result == 9) {result2 = "Tom Morello<br /><img src='tommorello.jpg' />"};
-    if (result > 9) {result2 = "Jimmy Page<br /><img src='jimmypage.png' />"};
+    if (result <= 2) {result2 = "You Are<br />Jimi Hendrix<br /><video src='Purple Haze.mp4' controls />"};
+    if (result == 3) {result2 = "You Are<br />Eddie Van Halen<br /><video src='Eruption.mp4' controls />"};
+    if (result == 4) {result2 = "You Are<br />Eddie Van Halen<br /><video src='Eruption.mp4' controls />"};
+    if (result == 5) {result2 = "You Are<br />Eddie Van Halen<br /><video src='Eruption.mp4' controls />"};
+    if (result == 6) {result2 = "You Are<br />Eddie Van Halen<br /><video src='Eruption.mp4' controls />"};
+    if (result == 7) {result2 = "You Are<br />Tom Morello<br /><video src='RATM.mp4' controls />"};
+    if (result == 8) {result2 = "You Are<br />Tom Morello<br /><video src='RATM.mp4' controls />"};
+    if (result == 9) {result2 = "You Are<br />Tom Morello<br /><video src='RATM.mp4' controls />"};
+    if (result > 9) {result2 = "You Are<br />Jimmy Page<br /><video src='JP.mp4' controls />"};
 
 document.getElementById("score2").innerHTML = result2;
 
